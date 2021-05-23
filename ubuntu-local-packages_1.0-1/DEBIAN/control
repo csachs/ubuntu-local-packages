@@ -1,0 +1,8 @@
+Package: ubuntu-local-packages
+Version: 1.0-1
+Section: admin
+Priority: optional
+Architecture: amd64
+Depends: dpkg-dev (>= 1.19.0)
+Maintainer: Christian Sachs <sachs.christian@gmail.com>
+Description: ubuntu-local-packages creates a local package repository in /opt/packages/deb ... run update-local-packages to recreate the package definition.

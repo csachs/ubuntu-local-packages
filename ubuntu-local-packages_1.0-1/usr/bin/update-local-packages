@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /opt/packages
+dpkg-scanpackages deb | gzip > deb/Packages.gz
+
