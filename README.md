@@ -13,7 +13,9 @@ Since I'm tired of re-doing these steps, I have created this repository which it
 ## Installation
 
 ```bash
-# TODO
+sudo mkdir -p /opt/packages/deb
+sudo wget -O /opt/packages/deb/ubuntu-local-packages_1.0-1.deb https://github.com/csachs/ubuntu-local-packages/releases/download/v1.0-1/ubuntu-local-packages_1.0-1.deb
+sudo apt install /opt/packages/deb/ubuntu-local-packages_1.0-1.deb
 ```
 
 
